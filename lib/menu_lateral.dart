@@ -16,7 +16,7 @@ class _MenulateralState extends State<Menulateral> {
         children: [
           const DrawerHeader(
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 245, 150, 181)
+              color: Color.fromARGB(255, 255, 234, 139)
             ),
             child: Text('Curso Flutter'),
           ),
