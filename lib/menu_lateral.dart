@@ -29,6 +29,11 @@ class _MenulateralState extends State<Menulateral> {
             leading: const Icon(Icons.table_rows),
             title: const Text("02 - Linhas e Colunas"),
             onTap: () => Navigator.pushNamed(context, "/aula02")
+          ),
+          ListTile(
+            leading: const Icon(Icons.person),
+            title: const Text("03 - Perfil do usuário"),
+            onTap: () => Navigator.pushNamed(context, "/aula03")
           )
         ],
       ),
